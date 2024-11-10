@@ -1,0 +1,622 @@
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+.playwrite-gb-s{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    border-radius: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, .worktxt p, .litxt p, h4{
+    font-family: "Playwrite GB S", cursive;
+}
+
+body,html{
+    background-color: rgb(77, 74, 63);
+}
+
+div.geral{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgb(255, 245, 226);
+    height:100% + 20px;
+    justify-content: center;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    position: relative;
+}
+header .rosto{
+    border: solid black 0.1px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+
+}
+
+.rosto{
+    background-image: url(WhatsApp\ Image\ 2024-10-27\ at\ 14.00.23.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header>.rosto > h4 {
+    position: absolute;
+    top: 200px;
+    transform: translateX(220%);
+    font-weight: bolder;
+    font-size: 1em;
+    color: black;
+    text-shadow: 0 0 5px white;
+    z-index: 1;
+}
+
+header>.rosto > hr {
+    position: absolute;
+    top: 217px;
+    transform: translateX(260%);
+    font-weight: bolder;
+    color: black;
+    border: solid rgb(206, 0, 0) 3px;
+    width: 60px;
+    z-index: 0;
+    border-radius: 50px;
+}
+
+.info{
+    
+    width: 400px;
+    height: 300px;
+    margin: 10px auto;
+}
+
+.info h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 10px;
+}
+
+
+.vermelho{
+    color: rgb(206, 0, 0);
+    margin: 20px, 0px;
+    font-size: 25px;
+}
+
+.info, .banana{
+    text-align: right;
+    font-size: 20px;
+    margin: 10px;
+}
+
+main .contatos, main .aniversario{
+    display: flex;
+    margin: 10px;
+}
+
+main .contatos{
+    justify-content: space-evenly;
+    border: solid black 3px;
+    border-radius: 20px;
+    flex-wrap: wrap;
+}
+
+.logo > img {
+    height: 3.5em;
+}
+
+.logo > span{
+    font-size: 1em;
+    color: rgb(206, 206, 0);
+    display: inline-block;
+    font-size: 4em;
+}
+
+.ani_info{
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.aniversario{
+    
+    
+    
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.worked{
+    padding-top: 30px;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.worktxt{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 0px;
+    flex: 0;
+}
+
+.worktxt p{
+    font-weight: bolder;
+    font-size: 2em;
+    padding-right: 0px;
+}
+
+.workline{
+    display: flex;
+    flex-direction: column;
+}
+
+.linha, .linguagem hr{
+    display: flex;
+    flex-direction: row;
+}
+
+.linha hr{
+    border: solid 2px;
+    flex-basis: 200px;
+    
+}
+
+.hr1{
+    color: green;
+}
+
+.hr2{
+    color: red;
+}
+
+.hr3{
+    color: yellow;
+}
+
+.datawork2{
+    justify-content:flex-end;
+}
+
+.datawork1 {
+    justify-content: flex-start;
+}
+
+.datawork{
+    width: 610px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.major2{
+    justify-content: flex-end;
+    text-align: right;
+    
+}
+
+.wex{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.workline2{
+    display: flex;
+    flex-direction: column;
+}
+
+.colunaworkline{
+    display: flex;
+    flex-direction: row;
+}
+
+.workblue{
+    display: flex;
+    flex-direction: column;
+}
+
+.linhaV{
+    border-left: 3px solid ;
+    height: 55px;
+    position: relative;
+    margin-top: 10px;
+}
+
+
+.linhaV:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.linhaV:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+#blue{
+    color: blue;
+}
+
+#red{
+    color: red;
+}
+
+#yellow{
+    color: yellow;
+}
+
+#green{
+    color: green;
+}
+.divh{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+    padding: 20px;
+}
+
+.wextxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.worktxt > .linha > hr {
+    
+    width: 200px;
+    position: absolute;
+    right: 40%;
+    
+    transform: translatey(900%);
+    border: 1px solid #000;
+}
+
+
+.divh > span{
+    text-align: center;
+}
+
+
+.worktxt > .linha > hr{
+    display: none;
+}
+
+.worktxt p{
+    text-align: left;
+}
+
+.linguagem{
+    display: flex;
+    flex-direction: row;
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+
+.litxt > p{
+    font-weight: bolder;
+    font-size: 2em;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.inomex > p{
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.litabela{
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+}
+
+.libarra hr{
+    border: solid 1px;
+    flex-basis: 150px;
+    height: 1em;
+    margin: 5px 0;
+    width: 200px;
+}
+
+.lip #barra1a > hr {
+    background-color: orange;
+    border: orange 0.1px solid;
+    width: 370px;
+}
+
+
+.lip #barra2a > hr{
+    border: orange 0.1px solid;
+    width: 30px;
+}
+
+.lip #barra3a > hr {
+    background-color: green;
+    border: green 0.1px solid;
+    width: 300px;
+}
+
+
+.lip #barra4a > hr{
+    border: green 0.1px solid;
+    width: 100px;
+}
+
+.libarra{
+    display: flex;
+    flex-direction: column;
+}
+.linome{
+    display: flex;
+    flex-direction: column;
+}
+
+.lip{
+    display: flex;
+    flex-direction: row;
+}
+
+.Interesses{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+
+.icones{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.icon img{
+    height: 4em;
+    width: 4em;
+    
+}
+
+.icon{
+    display: flex;
+    flex-direction: column;
+    padding-left: 110px;
+    
+}
+
+.icon p, .icon img{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#cozinhar {
+    object-fit: cover;
+    vertical-align: center; /* ou contain, dependendo da necessidade */
+}
+
+.icon p{
+    font-weight: bolder;
+}
+
+@media (max-width: 900px) {
+    .worked{
+        flex-direction: column;
+    }
+
+    .worktxt p{
+        text-align: center;
+    }
+
+    .worktxt{
+        margin-left: 0px;
+    }
+
+    .worktxt span{
+        display: none;
+    }
+
+    .wex, .Interesses{
+        flex-direction: column;
+    }
+
+    .worktxt{
+        justify-content: center;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .workline2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body,html{
+        background-color:rgb(255, 245, 226) ;
+    }
+
+    .libarra hr{
+        width: 200px;
+    }
+
+    .linguagem{
+        flex-direction: column;
+    }
+
+    .litxt{
+        justify-content: center;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .litabela{
+        text-align: center;
+        justify-content: center;
+    }
+    .icon{
+        padding-left: 0px;
+        justify-content: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .Interesses{
+        margin: 0px 50px;
+        padding: 20px 50px;
+        padding-top: 0px;
+    }
+}
+
+@media (min-width: 900px) {
+    
+
+    
+
+    
+
+}

@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+
+:root{
+    --cor1:#F3EBDE;
+    --cor2:#B9BDA5;
+    --cor3:#F1DFC7;
+    --cor4:#E8EDC5;
+    --cor5:#F2CFB9
+}
+
+ul.nav{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+    padding: 8px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 600px ;
+    min-width: 70vw;
+    border: solid black 1px;
+    border-top: transparent;
+    border-radius: 0px 0px 50px 50px;
+    background-color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav a{
+    cursor: pointer;
+    transition: 0.7s;
+    padding: 8px 20px;
+}
+
+.nav a:hover{
+    color:var(--cor2);
+}
+
+.lado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+    max-height: 1100px;
+    border-bottom: solid black 1px;
+}
+
+#home{
+    background-color: var(--cor1);
+}
+
+#sobre{
+    background-color: var(--cor2);
+}
+
+#carreira{
+    background-color: var(--cor3);
+}
+
+#formacao{
+    background-color: var(--cor4);
+}
+
+#contate-me{
+    background-color: var(--cor5);
+}
+
+#imagem{
+    min-width: 400px;
+    height: 400px;
+    
+    border-radius: 50%;
+    margin: 20px;
+    background-image: url(WhatsApp\ Image\ 2024-10-30\ at\ 11.14.24.jpeg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.texto{
+    flex: right;
+    max-width: 60vw;
+    text-align: right;
+    
+    margin: 20px;
+}
+
+.texto p{
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#texto2{
+    text-align: left;
+}
+
+#img2{
+    min-width: 30vw;
+    height: 30vw;
+    border: solid black 1px;
+}
+
+.texto p{
+    font-size: 2em;
+}
+
+.texto h1{
+    font-size: 3em;
+}
+
+#carreira{
+    padding-bottom: 80px;
+    border-bottom: #000 1px solid;
+    height: 100%;
+}
+
+
+
+.linhaDoTempo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 800px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -100px;
+}
+
+.linhaV{
+    border-left: 3px solid ;
+    height: 100px;
+    position: relative;
+    
+}
+
+
+.linhaV:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -21px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.linhaDoTempo:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: -19px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    transform: translateY(-160px);
+}
+
+.titulo{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 4em;
+}
+
+#carreira_dados{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 110px;
+    justify-content: center;
+}
+
+#carreira_datas{
+    padding-right: 30px;
+    text-align: right;
+    width: 50vw;
+}
+
+#carreira_descricoes{
+    padding-left: 30px;
+    text-align: left;
+    width: 50vw;
+}
+
+#carreira_datas p{
+    margin-bottom: 80px;
+}
+
+.margin{
+    margin-bottom: 80px;
+}
+
+#d{
+    margin-bottom: 70px;
+}
+
+#d2{
+    margin-bottom: 75px ;
+}
+
+#d3{
+    margin-bottom: 85px;
+}
+
+#d4{
+    margin-bottom: 0px;
+}
+
+#emprego{
+    padding-right: 80px;
+    text-align: right;
+}
+
+#descricao_emprego{
+    text-align: left;
+}
+
+#formacao{
+    padding: 40px;
+    border-bottom: #000 1px solid;
+}
+#formacao h1{
+    text-align: center;
+    font-size: 4em;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.formacaod h2{
+    font-size: 2.5em;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.formacaod span{
+    font-weight: bolder;
+}
+
+.formacaod{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+#contate-me{
+    height: 100%;
+    
+}
+
+.conteiner{
+    padding: 100px;
+    text-align: center;
+    font-size: 3em;
+}
+
+.conteiner h1{
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.conteiner h2{
+    font-size: 1em;
+}
+
+@media screen and (min-width: 1333px){
+    #d2{
+        margin-bottom: 85px;
+    }
+    #d{
+        margin-bottom: 80px;
+    }
+
+    #d3{
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 668px) {
+    
+    #d{
+        margin-bottom: 40px;
+    }
+
+    #d3{
+        margin-bottom: 60px;
+    }
+
+    .lado{
+        flex-direction: column;
+    }
+
+    #imagem{
+        margin-top: 60px;
+    }
+
+    .conteiner h1{
+        font-size: 1.5em;
+        padding-bottom: 20px;
+    }
+    
+    .conteiner h2{
+        font-size: 0.7em;
+        margin-bottom: 3px;
+    }
+
+    #sobre{
+        flex-direction: column-reverse;
+    }
+}
